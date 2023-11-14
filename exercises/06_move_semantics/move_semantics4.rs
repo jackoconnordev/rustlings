@@ -15,7 +15,7 @@ fn main() {
 
 // `fill_vec()` no longer takes `vec: Vec<i32>` as argument - don't change this!
 fn fill_vec() -> Vec<i32> {
-    let mut vec = Vec::new();
+    let mut vec = vec![22, 44, 66];
 
     vec.push(88);
 
