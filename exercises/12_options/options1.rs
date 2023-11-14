@@ -17,7 +17,7 @@ fn maybe_icecream(time_of_day: u16) -> Option<u16> {
 }
 
 #[cfg(test)]
-mod tests {
+mod ests {
     use super::*;
 
     #[test]
